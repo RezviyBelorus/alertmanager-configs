@@ -103,17 +103,17 @@ inhibit_rules:
 receivers:
 - name: 'team-X-mails'
   email_configs:
-  - to: 'team-X+alerts@example.org'
+  - to: 'afamin.c@mesosphere.io'
 
 - name: 'team-X-pager'
   email_configs:
-  - to: 'team-X+alerts-critical@example.org'
+  - to: 'afamin.c@mesosphere.io'
   pagerduty_configs:
   - service_key: <team-X-key>
 
 - name: 'team-Y-mails'
   email_configs:
-  - to: 'team-Y+alerts@example.org'
+  - to: 'afamin.c@mesosphere.io'
 
 - name: 'team-Y-pager'
   pagerduty_configs:
